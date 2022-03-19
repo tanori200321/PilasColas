@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\PilasColas.csproj", "{651F1D6F-F6C7-49C8-9FAA-A8306E60E98C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "Arreglos\Arreglos.csproj", "{23237496-D392-41A2-82E2-89D87AE6E0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{DA9EA6FE-02B6-48DE-BD10-175436B6A762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{651F1D6F-F6C7-49C8-9FAA-A8306E60E98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651F1D6F-F6C7-49C8-9FAA-A8306E60E98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651F1D6F-F6C7-49C8-9FAA-A8306E60E98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23237496-D392-41A2-82E2-89D87AE6E0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23237496-D392-41A2-82E2-89D87AE6E0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23237496-D392-41A2-82E2-89D87AE6E0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23237496-D392-41A2-82E2-89D87AE6E0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9EA6FE-02B6-48DE-BD10-175436B6A762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9EA6FE-02B6-48DE-BD10-175436B6A762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9EA6FE-02B6-48DE-BD10-175436B6A762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9EA6FE-02B6-48DE-BD10-175436B6A762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
