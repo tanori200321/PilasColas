@@ -43,6 +43,36 @@ namespace Arreglos
             }
 
             array[tope] = dato;
+            tope++;
+        }
+        public void Eliminar()
+        {
+            if (ValidaVacio())
+            {
+                throw new Exception("Arreglo Vacio");
+            }
+            tope--;
+            array[tope] = null;
+        }
+        public string Imprimir()
+        {
+            string datos= ""; //string.empty; 
+            if (ValidaVacio())
+            {
+                return "Arreglo Vacio";
+            }
+            for(int i = 0; i < tope; i++)
+            {
+                if (i > 0)
+                {
+                    datos += "\n";
+                }
+
+                datos += $"[{i}]; - {array[i]}";
+            }
+            return datos;
+
+            
         }
   }
 }
