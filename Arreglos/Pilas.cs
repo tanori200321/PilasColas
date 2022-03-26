@@ -29,11 +29,20 @@ namespace Arreglos
             //}
 
             return (tope < 1);
-            
+
         }
         private bool Validalleno()
         {
             return (tope > max);
-    }
+        }
+        public void Agregar(string dato)
+        {
+            if (Validalleno())
+            {
+                throw new Exception("Arreglo Lleno");
+            }
 
+            array[tope] = dato;
+        }
+  }
 }
