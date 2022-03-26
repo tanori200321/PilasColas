@@ -14,10 +14,26 @@ namespace Arreglos
         public Pilas(int tamaño)
         {
             array = new string[tamaño];
-            max = array.Length-1;
-            tope = 0;        
+            max = array.Length - 1;
+            tope = 0;
         }
+        private bool ValidaVacio()
+        {
+            //if (tope < 1)
+            //{
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
 
+            return (tope < 1);
+            
+        }
+        private bool Validalleno()
+        {
+            return (tope > max);
     }
 
 }
