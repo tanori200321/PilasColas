@@ -1,7 +1,7 @@
 ﻿using Arreglos;
 using Listas;
 
-Arreglos.Pilas pilas = new Arreglos.Pilas(10);
+Listas.Pilas pilas = new Listas.Pilas(10);
 pilas.Agregar("cero");
 pilas.Agregar("uno");
 pilas.Agregar("dos");
@@ -26,6 +26,8 @@ for (int i = 0; i < 10; i++)
         Console.WriteLine(ex.Message);
     }
 }
+Listas.Pilas listas = new Listas.Pilas();
+
 
 
 

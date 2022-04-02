@@ -18,6 +18,39 @@ namespace Listas
         {
             lista.Add(dato);
         }
+        private bool ValidarVacio()
+        {
+            return lista.Count > 0;
+        }
+        public void Eliminar()
+        {
+            if (ValidarVacio())
+            {
+                throw new Exception("Lista Vacia");
+            }
+            lista.RemoveAt(0);
+        }
+        public string Imprimir()
+        {
+            string datos = "";
+
+            if (ValidarVacio())
+            {
+                return "Lista Vacia";
+
+            }
+            int lstCount = lista.Count;
+            for (int i = 0; i < lstCount; i++)
+            {
+                if (i > 0)
+                {
+                    datos = "\n";
+                }
+                datos += $"[{i}] - {lista[i]}";
+            }
+            return datos;
+
+        }
 
 
     }
