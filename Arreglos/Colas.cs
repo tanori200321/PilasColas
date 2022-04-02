@@ -56,7 +56,7 @@ namespace Arreglos
             {
                 if (i > principio)
                 {
-                    datos = "\n";
+                    datos += "\n";
                 }
                 datos += $"[{i}] - {array[i]}";
 

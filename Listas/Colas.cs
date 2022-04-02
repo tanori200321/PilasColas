@@ -20,7 +20,7 @@ namespace Listas
         }
         private bool ValidarVacio()
         {
-            return lista.Count > 0;
+            return lista.Count == 0;
         }
         public void Eliminar()
         {
@@ -34,6 +34,7 @@ namespace Listas
         {
             string datos = "";
 
+
             if (ValidarVacio())
             {
                 return "Lista Vacia";
@@ -44,7 +45,7 @@ namespace Listas
             {
                 if (i > 0)
                 {
-                    datos = "\n";
+                    datos += "\n";
                 }
                 datos += $"[{i}] - {lista[i]}";
             }
